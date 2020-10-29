@@ -64,9 +64,9 @@ def gen_coprime(n) -> int:
 
 def is_prime(n) -> bool:
     if n == 1:
-        return True
-    elif n == 2:
         return False
+    elif n == 2:
+        return True
     for f in range(2, round(sqrt(n)) + 1):
         if n % f == 0:
             return False
@@ -88,7 +88,7 @@ def isprime(n: int) -> bool:
 
 
 def gen_primes(a, b):
-    """Generate 2 prime numbers between a and b"""
+    """Generate list of all primes between a and b"""
     prm = []
     for i in range(a, b):
         if isprime(i):
