@@ -1,3 +1,4 @@
 # Ignore pycharm stuff
+.gitignore
 .idea
 .git
